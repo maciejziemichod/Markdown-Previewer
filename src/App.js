@@ -28,7 +28,7 @@ const anotherExample = (firstLine, lastLine) => {
      - different
         - indentation levels
 
-![React Logo w/ Text](https://goo.gl/Umyytc)
+![React Logo w/ Text](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
 `;
 
 class App extends Component {
