@@ -7,7 +7,36 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+.editorMinimized {
+  height: 40vh;
+}
+
+#preview code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+  background: #dadada;
+}
+
+#preview blockquote {
+  border-left: 3px solid #424242;
+  color: #424242;
+  padding-left: 0.3rem;
+  margin-left: 1rem;
+}
+
+#preview pre {
+  padding: 1rem;
+  background: #dadada;
+  border-radius: 5px;
+}
+
+#preview table {
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+#preview td,
+#preview th {
+  border: 2px solid #dadada;
+  padding: 0 0.5rem;
 }
